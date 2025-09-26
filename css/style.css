@@ -29,7 +29,6 @@ nav a:hover, nav a:focus {
     border: 5px dashed green;
 }
 
-
 /*Write selector/rule property to style the container */
 
 .container{
@@ -38,13 +37,13 @@ nav a:hover, nav a:focus {
     gap: 13px;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
-
 
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 
 .container div:first-child{
-    grid-column: 1 / span 5;
+    grid-column: 1 / -1;
     background-image: url('../images/header.jpg');
 }
 
